@@ -73,7 +73,7 @@ hr {
 
 /* Section */
 .sections {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
