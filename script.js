@@ -17,7 +17,4 @@ function displayQuote(data) {
 
     quote.innerHTML = randomQuote.text;
     author.innerHTML = `- ${randomQuote.author}`;
-
-    console.log(randomQuote.text);
-    console.log(randomQuote.author);
 }
