@@ -107,9 +107,11 @@ hr {
 }
 
 #quote-text {
-  font-style: italic;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+#quote-author {
+  font-size: 0.9rem;
 }
 
 
