@@ -45,14 +45,15 @@ a {
 /* Main */
 .container {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   position: relative;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .title {
@@ -74,7 +75,6 @@ hr {
 
 /* Section */
 .sections {
-  /* margin-bottom: 100px; */
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -161,6 +161,7 @@ img {
   width: 100%;
   position: absolute;
   bottom: 0;
+  text-align: center;
 }
 
 span#footer-name {
@@ -170,7 +171,10 @@ span#footer-name {
   font-size: 1rem;
 }
 
-
+/* Media Query */
+@media only screen and (max-width: 320px) {
+  
+}
 
 
 

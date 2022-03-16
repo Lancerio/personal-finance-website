@@ -69,20 +69,27 @@ hr {
     margin-bottom: 15px;
 }
 
-section {
-    height: 20%;
-    margin-bottom: 10px;
+
+/* Main */
+.container {
+  max-width: 100vw;
 }
 
-h2 {
+.source {
+    width: 100vw;
     margin-bottom: 10px;
+  }
+
+.source a:hover {
+  color: var(--accent-two);
 }
 
 /* Table */
 #returns {
     text-align: center;
     font-family: inherit, sans-serif;
-    width: 30%;
+    width: 300px;
+    max-width: 100vw;
 }
 
 #returns th,
