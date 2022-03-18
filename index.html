@@ -7,81 +7,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Personal Finance Wiki</title>
+    <title>Personal Finance Space</title>
 </head>
 
-<div class="container">
-    <p class="title">Personal Finance Space</p>
-    <p class="subtitle">Concepts, ideas, notes, references.</p>
-    <p class="subtitle">Go-to resource for managing finances.</p>
+<body>
+    <div class="container">
+        <p class="title">Personal Finance Space</p>
+        <p class="subtitle">Concepts, ideas, notes, references.</p>
+        <p class="subtitle">Go-to resource for managing finances.</p>
 
-    <hr>
+        <hr>
 
-    <div class="sections">
-        <section class="section-item get-started">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                <button id="get-started">Get Started</button>
-            </a>
-        </section>
+        <div class="sections">
+            <section class="section-item get-started">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <button id="get-started">Get Started</button>
+                </a>
+            </section>
 
-        <section class="section-item savings">
-            <button>Savings</button>
-            <div class="hover-content" id="hover-content">
-                <a href="#">Emergency Fund</a>
-                <a href="#">Digital Banks</a>
+            <section class="section-item savings">
+                <button>Savings</button>
+                <div class="hover-content" id="hover-content">
+                    <a href="#">Emergency Fund</a>
+                    <a href="#">Digital Banks</a>
+                </div>
+            </section>
+
+            <section class="section-item investments">
+                <button>Investments</button>
+                <div class="hover-content" id="hover-content">
+                    <a href="pages/mp2.html">MP2</a>
+                    <a href="pages/heatmap.html">PSE Heatmap</a>
+                </div>
+            </section>
+
+            <section class="section-item tools">
+                <button>Tools</button>
+                <div class="hover-content" id="hover-content">
+                    <a href="/changelog.md">Net Worth Calculator</a>
+                </div>
+            </section>
+
+            <section class="section-item contributors">
+                <button id="contributors">Contributors</button>
+                <div class="hover-content" id="hover-content">
+                    <a href="https://www.instagram.com/the.soulknows">RAM.</a>
+                </div>
+            </section>
+
+            <section class="section-item net-worth">
+                <a href="https://sites.google.com/view/pinoynetworthlist/home">
+                    <button id="net-worth">Pinoy Net Worth List</button>
+                </a>
+            </section>
+        </div>
+
+        <div class="quote-container">
+            <div class="quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <p id="quote-text"></p>
+                <p id="quote-author"></p>
             </div>
-        </section>
-
-        <section class="section-item investments">
-            <button>Investments</button>
-            <div class="hover-content" id="hover-content">
-                <a href="pages/mp2.html">MP2</a>
-                <a href="#">Stocks</a>
-                <a href="#">Crypto</a>
-                <a href="#">Real Estate</a>
-            </div>
-        </section>
-
-        <section class="section-item contributors">
-            <button id="contributors">Contributors</button>
-            <div class="hover-content" id="hover-content">
-                <a href="https://www.instagram.com/the.soulknows">RAM.</a>
-                <a href="#">Ed :)</a>
-                <a href="#">Taylor</a>
-                <a href="#">J-MYR</a>
-            </div>
-        </section>
-
-        <section class="section-item net-worth">
-            <a href="https://sites.google.com/view/pinoynetworthlist/home">
-                <button id="net-worth">Pinoy Net Worth List</button>
-            </a>
-        </section>
-    </div>
-
-    <div class="quote-container">
-        <div class="quote">
-            <i class="fa-solid fa-quote-left"></i>
-            <p id="quote-text"></p>
-            <p id="quote-author"></p>
         </div>
     </div>
-</div>
 
-<div class="footer">
-    <p>&copy 2022 | Maintained by
-        <a href="https://lancerio.github.io/portfolio-website/">
-            <span id="footer-name">RAM.</span>
-        </a>
-    </p>
-</div>
+    <div class="footer">
+        <p>&copy 2022 | Maintained by RAM.
+            <a href="https://lancerio.github.io/portfolio-website/">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </p>
 
-<!-- <section class="image">
-    <img src="https://blush.design/api/download?shareUri=pj3QaJg4f9NHOroV&c=Skin_0%7Eedb98a&w=800&h=800&fm=png"
-        alt="sitting guy">
-</section> -->
+        <p class="changelog">
+            <a href="/changelog.txt">Changelog</a>
+        </p>
 
-<script src="script.js"></script>
+    </div>
+
+    <script src="/js/script.js"></script>
 
 </body>
 

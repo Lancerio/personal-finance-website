@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap");
+
+/* Variables */
+:root {
+  --font-family: 'Quicksand', sans-serif;
+  --color-one: #0374cb;
+  --color-two: #e1246b;
+  --color-three: #152674;
+  --dark-one: #303030;
+  --dark-two: #2b2b2b;
+  --dark-three: #1f1f1f;
+  --gray-light: #9ca3af;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--dark-three);
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Main */
+.page-container {
+  height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+hr {
+  width: 30%;
+  opacity: 50%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.fa-house {
+  font-size: 1.5rem;
+  color: var(--color-one);
+}
+
+.fa-house:hover {
+  color: var(--color-two);
+}
+
+.source {
+  margin-bottom: 20px; 
+}
+
+.source a {
+    color: var(--dark-one); 
+}
+
+.source a:hover {
+    color: var(--color-two); 
+}
+
+/* Table */
+#returns {
+    text-align: center;
+    font-family: inherit, sans-serif;
+    width: 300px;
+    max-width: 100vw;
+}
+
+#returns th,
+#returns td {
+    padding: 5px;
+}
+
+#returns th {
+    background-color: var(--color-one);
+    color: #fff;
+}
+
+#returns tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+#returns tr.average {
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  color: var(--dark-three);
+  font-family: 'Space Mono', sans-serif;
+  padding: 10px 15px;
+  border-top: 1px solid var(--dark-two);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.fa-github {
+  font-size: 1.2rem;
+  color: var(--dark-three);
+}
