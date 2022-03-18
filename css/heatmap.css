@@ -188,3 +188,18 @@ a:hover {
 .hidden {
     display: none;
 }
+
+/* Footer */
+.footer {
+    color: var(--dark-three);
+    font-family: 'Space Mono', sans-serif;
+    padding: 10px 15px;
+    border-top: 1px solid var(--dark-two);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .fa-github {
+    font-size: 1.2rem;
+    color: var(--dark-three);
+  }

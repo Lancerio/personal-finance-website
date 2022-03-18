@@ -23,13 +23,11 @@ body {
   font-family: var(--font-family);
   color: var(--dark-three);
   height: 100vh;
-  overflow: hidden;
   position: relative;
 }
 
 /* Main */
 .page-container {
-  height: 100vh;
   width: 100%;
   max-width: 100vw;
   position: relative;
@@ -105,8 +103,6 @@ hr {
   padding: 10px 15px;
   border-top: 1px solid var(--dark-two);
   width: 100%;
-  position: absolute;
-  bottom: 0;
   text-align: center;
 }
 
